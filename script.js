@@ -1,1 +1,1 @@
-function buy(name,amount){alert('سفارش: '+name+'\nمبلغ: '+Number(amount).toLocaleString('fa-IR')+' تومان\n\nاتصال واقعی به درگاه باید در بک‌اند انجام شود.')}
+function buy(name,amount){const price=amount?Number(amount).toLocaleString('fa-IR')+' تومان':'قیمت توافقی';alert('سفارش: '+name+'\nمبلغ: '+price+'\n\nبرای پرداخت واقعی، این دکمه باید به بک‌اند و درگاه متصل شود.');}
