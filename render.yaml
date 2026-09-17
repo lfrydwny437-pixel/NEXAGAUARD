@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: nexaguard
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: RUBIKA_BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: ADMIN_PANEL_KEY
+        sync: false
+      - key: SELLER_RUBIKA_USERNAME
+        sync: false
+      - key: WEBHOOK_URL
+        sync: false

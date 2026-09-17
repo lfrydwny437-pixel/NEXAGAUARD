@@ -1,0 +1,8 @@
+.git
+.gitignore
+.env
+.env.*
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+README_FA.md
