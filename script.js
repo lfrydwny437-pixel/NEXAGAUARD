@@ -1,0 +1,1 @@
+function buy(name,amount){alert('سفارش: '+name+'\nمبلغ: '+Number(amount).toLocaleString('fa-IR')+' تومان\n\nاتصال واقعی به درگاه باید در بک‌اند انجام شود.')}
